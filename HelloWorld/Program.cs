@@ -13,7 +13,7 @@ namespace HelloWorld
              Manga de pelotudos los odio a todos
              */
                 Console.WriteLine(3+3);
-            Console.WriteLine("Hello chupapijas");
+            Console.WriteLine("Hello");
         }
     }
 }
