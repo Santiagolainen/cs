@@ -8,10 +8,6 @@ namespace HelloWorld
 
         static void Main(string[] args)
         {
-            //caca
-            /*
-             Manga de pelotudos los odio a todos
-             */
                 Console.WriteLine(3+3);
         }
     }
