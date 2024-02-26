@@ -5,10 +5,21 @@ namespace HelloWorld
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Car myCar = new Car();
-            Console.WriteLine(myCar.color);
+        class Car {
+
+            public string model;
+
+            public Car(string modelName) {
+                model = modelName;
+            }
+
+            static void Main(string[] args) {
+                Car Ford = new Car("Mustang");
+                Car Toyota = new Car("Yaris");
+                Console.WriteLine(Ford.model);
+                Console.WriteLine(Toyota.model);
+            }
         }
+
     }
 }
